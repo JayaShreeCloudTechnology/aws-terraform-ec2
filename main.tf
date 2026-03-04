@@ -6,8 +6,6 @@ resource "aws_instance" "ec2_instance" {
     Name = "Test_Server"
   }
 }
-<<<<<<< HEAD
-
 # Define the S3 bucket resource
 resource "aws_s3_bucket" "my_bucket" {
   bucket = "my-unique-bucket-name-hyd2026" # Bucket names must be globally unique across all of AWS
