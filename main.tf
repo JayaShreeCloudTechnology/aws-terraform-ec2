@@ -13,8 +13,6 @@ resource "aws_s3_bucket" "my_bucket" {
 # Define the S3 bucket resource
 resource "aws_s3_bucket" "my_bucket" {
   bucket = "my-unique-bucket-name-hyd-2026" # Bucket names must be globally unique across all of AWS
->>>>>>> fd60870180d1be39d88a3a3dde37f4bf753e6561
-
   tags = {
     Name        = "MyS3Bucket"
     Environment = "Development"
